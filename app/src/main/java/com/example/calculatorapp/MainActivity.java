@@ -168,7 +168,6 @@ public class MainActivity extends AppCompatActivity{
                 } else{ //displays an error message if either input is invalid
                     Toast.makeText(MainActivity.this, "Please enter valid inputs", Toast.LENGTH_SHORT).show();
                 }
-
                 output.setText(result);
             }
             if(v.getId() == R.id.powerButton){
